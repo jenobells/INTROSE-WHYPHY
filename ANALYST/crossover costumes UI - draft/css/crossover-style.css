@@ -6,11 +6,10 @@
 
  *
 {
-   font-family: Dense !important;
+   font-family: Dense, FjallaOne !important;
 }
  
 body {
-    font: "Dense-Regular";
     background: #eeeeee;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,7 +24,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "FjallaOne-Regular";
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -91,7 +89,6 @@ hr {
 
 .intro-text {
     text-transform: uppercase;
-	font:"Dense-Regular";
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
