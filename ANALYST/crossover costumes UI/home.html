@@ -73,19 +73,65 @@
         <!--Log in popup -->
         <div id="login" class="modalDialog">
             <div>   
-                <a href="#close" title="Close" class="close">X</a>
+                <a href="#close" title="Close" class="close">CLOSE</a>
                 <h2>Log in</h2>
                 <span>Email Address/Username</span><br>
                 <input type="text" class="inputs"/><br>
                 <span >Password</span><br>
                 <input type="password" class="inputs"/><br>
-                <input style="float: center" type="button" class="btn btn-success"  value="Log in" /> 
+                <input style="float: center" type="button" class="btn btn-danger"  value="Log in" /> 
                 <center>
                     <h3>No Account?</h3>
-                    <a href="#">Register Now!</a>
+                    <a href="#signup">Register Now!</a>
                 </center>
             </div>
         </div>
+
+        <!-- Sign up popup -->
+        <div id="signup" class="signupModal">
+            <div>
+                <a href="#close" title="Close" class="close">CLOSE</a>
+                <h2>Registration</h2>
+                    
+                    <div class="row"> 
+                        <div class="col-md-4">
+                            <span>Email Address</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Confirm Email Address</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Username</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Password</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Confirm Password</span><br>
+                            <input type="text" class="inputs"/><br>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <span>First Name</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Middle Name</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Last Name</span><br>
+                            <input type="text" class="inputs"/><br>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <span>Address</span><br>
+                            <input type="text" class="inputs" /><br>
+                            <input type="text" class="inputs" /><br>
+                            <input type="text" class="inputs" /><br>
+                            <span>Contact Number 1:</span><br>
+                            <input type="text" class="inputs"/><br>
+                            <span>Contact Number 2:</span><br>
+                            <input type="text" class="inputs"/><br>
+                        </div>
+                    </div>
+
+                <center><input style="float: center" type="button" class="btn btn-danger" width="100px" value="REGISTER" /></center>
+            </div>
+        </div>
+
 
         <!-- Carousel -->
         <div class="row">
@@ -121,6 +167,7 @@
                     </div>          
                 </div> 
         </div>
+
 
       
     <!-- Footer -->
