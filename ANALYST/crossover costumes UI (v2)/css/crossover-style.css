@@ -190,6 +190,7 @@ footer p {
         table-layout: fixed;
         font-size: 1.75em;
     }
+	
 }
 
 .modalDialog {
@@ -219,6 +220,7 @@ footer p {
     background: white;
 }
 
+/*Normal styles for the modal*/
 .signupModal {
     position: fixed;
     top: 0;
@@ -233,6 +235,7 @@ footer p {
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
+/*make the modal appear when targeted*/
 .signupModal:target {
     opacity:1;
     pointer-events: auto;
