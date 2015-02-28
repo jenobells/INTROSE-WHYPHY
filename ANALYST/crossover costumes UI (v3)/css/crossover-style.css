@@ -1,0 +1,430 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ *
+{
+   font-family: Dense, FjallaOne !important;
+}
+ 
+body {
+    margin-top: 10%;
+    background-color: #eeeeee;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #800000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+#sidebar { 
+    width: 45px;
+    height: 90px;
+    position: fixed;
+    left: 0px;
+    top: 300px;
+    border: 1px solid black;
+}
+
+.brand {
+    background-color: #ffffff;
+	position:fixed;
+	height:10%;
+	width:100%;
+	top:0px;
+	z-index:5;
+}
+
+.navbar-brand {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+	position:fixed;
+	height:12%;
+	width:100%;
+	top:10%;
+	z-index:10;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 15px;
+}
+
+.carousel-inner .item img {
+	width: 100%;
+	max-height: 600px;	/* image size */
+	
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        postion: fixed;
+        right: 0px;
+        top: 50%
+        margin-top: -2.5em;
+        margin: 0;
+        padding: 5px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font: "FjallaOne-Regular";
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #ffffff;
+    }
+    
+    .navbar .navbar-nav{
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: none;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 3.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        display: inline-block;
+        list-style-type: non;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+    
+    nav ul{
+        text-align: center;
+        display: inline-block;
+        
+        
+    }
+    
+    nav ul ul {
+	display: none;
+    }
+
+	nav ul li:hover > ul {
+        background-color: #fff;
+		display: block;
+	}
+    
+    nav ul {
+	    background: #ffffff; 
+        padding: 0 60px 15px;
+        margin-left: 50px;
+        text-align: left;
+	    list-style: none;
+	    position: fixed;
+	    display: inline-table;
+    }
+    
+    nav ul ul li {
+		float: none; 
+		position: relative;
+	}
+    
+    nav ul ul li a {
+        color: #1e1e1e;
+    }	
+    
+    nav ul ul li a:hover {
+        text-decoration: none;
+        color: #b10000;
+    }
+    
+    
+    .navbar-default {
+        text-align: center;
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {   
+        left: 0;
+        padding: 25px;
+    }
+    
+
+    .navbar-nav>li>a {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: inline-block;
+        margin: 0 auto;
+        display: table;
+        float: none;
+        width: 100%;
+        font-size: 1.75em;
+    }
+    
+       
+	
+}
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 300px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+/*Normal styles for the modal*/
+.signupModal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+/*make the modal appear when targeted*/
+
+.signupModal:target {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    z-index: 10000;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+
+.signupModal > div {
+    position: relative;
+    width: 850px;   
+    height: 550px;
+    margin: 5% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+.form label.month {width: 135px;}
+.form label.birthday{width:40px;}
+.form label.birthyear{width:100px;}
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(images/select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;}
+  
+.btn {
+    background: #b10000;
+    width: 250px;
+}
+
+inputs:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color: #b5b5b5;
+}
+
+.inputs {
+    background: #eeeeee;
+    font-size: 1.5rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 10px;
+    width: 250px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+}
+
+.inputs:focus {
+    background: #fff;
+    box-shadow: 0 0 0 3px #fff38e, inset 0 2px 3px rgba( 0, 0, 0, 0.2 ), 0px 5px 5px rgba( 0, 0, 0, 0.15 );
+    outline: none;
+}
+
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
